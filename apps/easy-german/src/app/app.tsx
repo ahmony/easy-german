@@ -1,8 +1,8 @@
+import React from "react"
+import { Title } from "@easy-german/shared"
+
 export function App() {
-  return (
-    <div>
-    </div>
-  );
+  return <Title />
 }
 
-export default App;
+export default App
