@@ -18,7 +18,8 @@ node_modules
 *.sublime-workspace
 
 # IDE - VSCode
-/.vscode
+.vs
+.idea
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -39,4 +40,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
+.nx
 .nx/cache
