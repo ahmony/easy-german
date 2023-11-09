@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@easy-german/shared": ["libs/shared/src/index.ts"]
+      "@easy-german/shared/*": ["libs/shared/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

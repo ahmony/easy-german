@@ -3,12 +3,15 @@ import App from "./app/app"
 import "./styles.css"
 import { ThemeProvider } from "@mui/material"
 import theme from "../../../customMuiSetup"
+import { BrowserRouter } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
 root.render(
-  <ThemeProvider theme={theme}>
-    <div className="base">
-      <App />
-    </div>
-  </ThemeProvider>
+  <div className="base">
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
+  </div>
 )
